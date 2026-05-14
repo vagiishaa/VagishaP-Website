@@ -4,22 +4,22 @@ const index = [
   {
     href: '/about',
     label: 'About',
-    note: 'Who I am, what drives me',
+    note: 'Who am I, what drives me?',
   },
   {
     href: '/experience',
     label: 'Experience',
-    note: 'Nextyn Advisory, UCD Smurfit, and the work in between',
+    note: 'professional pursuits, pivots, and everything in the middle',
   },
   {
     href: '/writing',
     label: 'Writing',
-    note: 'sunsetsfrommywindow — my Substack',
+    note: 'thought dumps & creations',
   },
   {
     href: '/contact',
     label: 'Say Hello',
-    note: "I'd love to talk",
+    note: 'If you were to be an inanimate object, which one would it be?',
   },
 ]
 

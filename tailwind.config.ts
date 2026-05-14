@@ -10,7 +10,7 @@ const config: Config = {
         parchment: '#F8F5F0',
         ink: '#1A1714',
         muted: '#8C8680',
-        terracotta: '#C47448',
+        terracotta: '#7A9B7A',
         warm: '#E8E3DB',
         card: '#F0EBE3',
         body: '#3D3A36',

@@ -7,8 +7,32 @@ html {
 }
 
 body {
-  background-color: #F8F5F0;
   color: #1A1714;
   font-family: var(--font-inter), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+.bg-parchment {
+  background-color: #F8F5F0;
+  background-image: radial-gradient(ellipse at 20% 15%, #FFFBF2 0%, #F8F5F0 60%);
+  position: relative;
+}
+
+.bg-parchment::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.045;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.font-serif {
+  font-style: italic;
+}
+
+main, nav, header {
+  position: relative;
+  z-index: 1;
 }
