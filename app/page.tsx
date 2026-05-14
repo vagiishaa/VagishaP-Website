@@ -4,17 +4,17 @@ const index = [
   {
     href: '/about',
     label: 'About',
-    note: 'Who am I, what drives me?',
+    note: 'Who am I, What drives me?',
   },
   {
     href: '/experience',
     label: 'Experience',
-    note: 'professional pursuits, pivots, and everything in the middle',
+    note: 'Professional pursuits, pivots, and everything in the middle',
   },
   {
     href: '/writing',
     label: 'Writing',
-    note: 'thought dumps & creations',
+    note: 'Thought dumps & two cents',
   },
   {
     href: '/contact',
