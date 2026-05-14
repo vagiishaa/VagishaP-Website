@@ -18,7 +18,7 @@ const experience = [
   },
   {
     org: 'Nextyn Advisory',
-    orgHref: '',
+    orgHref: 'https://www.nextyn.com',
     role: 'Analyst → Consultant → Assistant Manager',
     location: 'Mumbai',
     period: '2022 – 2024',
@@ -31,6 +31,7 @@ const experience = [
 const education = [
   {
     org: 'University College Dublin — Michael Smurfit Graduate School of Business',
+    orgHref: 'https://www.smurfitschool.ie',
     role: 'MSc Marketing',
     location: 'Dublin',
     period: '2024 – 2025',
@@ -39,6 +40,7 @@ const education = [
   },
   {
     org: 'University of Mumbai',
+    orgHref: 'https://www.nmcollege.in',
     role: 'Bachelors of Commerce (Business Management & Marketing)',
     location: '',
     period: '2018 – 2022',
