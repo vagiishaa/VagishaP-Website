@@ -25,28 +25,24 @@ export default function About() {
 
         <div className="max-w-xl space-y-6 text-body leading-[1.9] font-light text-[15px]">
           <p>
-            I'm a marketer by training, a researcher by instinct, and a writer in my spare time.
-            After graduating with a BCom in Business Management and Marketing, I spent two years at{' '}
-            <span className="text-ink font-normal">Nextyn Advisory</span> in Mumbai — connecting
-            companies with domain experts, reading between the lines of what clients actually needed,
-            and building trust across industries. I was promoted twice in those two years.
+            For the longest time, I've gone by one label: rational optimist. Someone who isn't
+            blinded by radical optimism but isn't dragging their feet through reality either.
+            Happy to report I haven't outgrown it yet. :)
           </p>
           <p>
-            Then I moved to Dublin to pursue my MSc in Marketing at{' '}
-            <span className="text-ink font-normal">UCD Michael Smurfit Business School</span>.
-            Starting over in a new country taught me things no classroom could — about building
-            community from scratch, about resilience, about what it really takes to keep going when
-            the path isn't obvious.
+            After graduating, I joined a small but mighty team at{' '}
+            <span className="text-ink font-normal">Nextyn Advisory</span> — reading between the
+            lines of what clients actually needed, building trust across industries, and figuring
+            out a lot about how I function in a highly challenging environment. Then I wanted
+            something that would raise the stakes, push me somewhere unfamiliar & that's when
+            UCD happened. The single biggest plot twist of my life. A new country, a new version
+            of myself, and enough lemons to last a lifetime.
           </p>
           <p>
-            The thread running through all of it: a genuine curiosity about people. Why they make
-            the choices they do, how they build relationships, what keeps them going. It's what draws
-            me to customer success — and it's what I write about on Substack.
-          </p>
-          <p>
-            I'm also drawn to human psychology and anthropology — not in an academic way, but in the
-            "why did that just happen" way. Understanding people has always felt less like a skill
-            and more like a compulsion.
+            The thread running through all of it has been curiosity about people. How we function
+            individually, what makes us one, what sets us apart, and where we're all headed. In
+            that pursuit, I came back to my pen & paper — to make some sense of what's happening
+            around me and within me. So hey!, if any of this hit a chord, follow along! :)
           </p>
         </div>
 
