@@ -25,7 +25,7 @@ const index = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-parchment flex flex-col justify-center">
+    <main className="min-h-screen flex flex-col justify-center">
       <div className="max-w-3xl mx-auto px-6 w-full py-24">
 
         <div className="mb-16">

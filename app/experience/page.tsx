@@ -47,7 +47,7 @@ const education = [
 
 export default function Experience() {
   return (
-    <div className="min-h-screen bg-parchment">
+    <div className="min-h-screen">
       <Nav />
       <main className="max-w-3xl mx-auto px-6 py-20">
 

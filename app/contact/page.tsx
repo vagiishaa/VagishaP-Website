@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-parchment">
+    <div className="min-h-screen">
       <Nav />
       <main className="max-w-3xl mx-auto px-6 py-20">
 
