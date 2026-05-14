@@ -30,10 +30,9 @@ export default function About() {
             Happy to report I haven't outgrown it yet. :)
           </p>
           <p>
-            After graduating, I joined a small but mighty team at{' '}
-            <span className="text-ink font-normal">Nextyn Advisory</span> — reading between the
-            lines of what clients actually needed, building trust across industries, and figuring
-            out a lot about how I function in a highly challenging environment. Then I wanted
+            After graduating, I joined a small but mighty team — reading between the lines of
+            what clients actually needed, building trust across industries, and figuring out a
+            lot about how I function in a highly challenging environment. Then I wanted
             something that would raise the stakes, push me somewhere unfamiliar & that's when
             UCD happened. The single biggest plot twist of my life. A new country, a new version
             of myself, and enough lemons to last a lifetime.
