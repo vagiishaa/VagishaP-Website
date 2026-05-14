@@ -7,22 +7,24 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    org: 'Nextyn Advisory',
-    role: 'Analyst → Consultant → Assistant Manager',
-    location: 'Mumbai',
-    period: '2022 – 2024',
-    highlight: true,
-    description:
-      'Worked in the expert network arm of a market research and consulting firm. Matched businesses with domain experts, managed client relationships end-to-end, and navigated complex stakeholder needs across industries. Promoted twice in two years.',
-  },
-  {
-    org: 'Retail',
+    org: 'Sales Associate — COS',
+    orgHref: 'https://www.cos.com',
     role: 'Part-time',
     location: 'Dublin',
     period: '2024 – present',
     highlight: false,
     description:
-      'Worked part-time in retail in Dublin while completing my masters — customer-facing, fast-paced, and a grounding reminder that good service is fundamentally about people.',
+      'Started working alongside pursuing the Master\'s Degree. A true test of working in a fast-paced environment and a grounding reminder that it all starts with people.',
+  },
+  {
+    org: 'Nextyn Advisory',
+    orgHref: '',
+    role: 'Analyst → Consultant → Assistant Manager',
+    location: 'Mumbai',
+    period: '2022 – 2024',
+    highlight: true,
+    description:
+      'A step into the world of EODs, Circling back & efficient TATs right after college which turned into an environment that shaped me.',
   },
 ]
 
@@ -33,15 +35,15 @@ const education = [
     location: 'Dublin',
     period: '2024 – 2025',
     description:
-      'Postgraduate study in marketing strategy, consumer behaviour, and brand management. Relocated independently from India to Ireland to pursue this.',
+      'Modules focusing on Marketing Management, Consumer Behavior, Creating Customer Value & AI. Capstone project focusing on rebranding a classic Irish brand to suit GenZ needs along with cross functional collaboration with the cohort.',
   },
   {
     org: 'University of Mumbai',
-    role: 'Undergraduate Degree',
+    role: 'Bachelors of Commerce (Business Management & Marketing)',
     location: '',
     period: '2018 – 2022',
     description:
-      'Active in extracurricular life throughout — led teams, organised initiatives, and developed a foundation in business and marketing thinking.',
+      'A place that nurtured me to challenge perspectives, lead with empathy and develop a strategic mindset via active participation in academic & extra curricular endeavors.',
   },
 ]
 
@@ -84,7 +86,7 @@ export default function Experience() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-14">
-      <p className="text-[10px] text-muted tracking-[0.2em] uppercase mb-6 font-light">{title}</p>
+      <p className="text-sm text-ink font-medium tracking-[0.15em] uppercase mb-6">{title}</p>
       <div className="space-y-10">{children}</div>
     </div>
   )
@@ -92,6 +94,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Entry({
   org,
+  orgHref,
   role,
   location,
   period,
@@ -99,6 +102,7 @@ function Entry({
   highlight = false,
 }: {
   org: string
+  orgHref?: string
   role: string
   location: string
   period: string
@@ -108,8 +112,19 @@ function Entry({
   return (
     <div className={`border-l-2 pl-5 ${highlight ? 'border-terracotta' : 'border-warm'}`}>
       <div className="flex flex-wrap justify-between items-start gap-2 mb-1">
-        <h3 className="text-ink font-normal text-[15px]">{org}</h3>
-        <span className="text-xs text-muted font-light">{period}</span>
+        {orgHref ? (
+          <a
+            href={orgHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-ink font-normal text-[15px] hover:text-terracotta transition-colors duration-200"
+          >
+            {org}
+          </a>
+        ) : (
+          <h3 className="text-ink font-normal text-[15px]">{org}</h3>
+        )}
+        <span className="text-xs text-body font-light">{period}</span>
       </div>
       <p className="text-xs text-terracotta mb-3 font-light tracking-wide">
         {role}{location ? ` · ${location}` : ''}
