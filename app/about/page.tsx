@@ -50,9 +50,9 @@ export default function About() {
             href="https://neal.fun/absurd-trolley-problems/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] text-muted font-light hover:text-terracotta transition-colors duration-200"
+            className="text-[15px] text-body font-light hover:text-terracotta transition-colors duration-200"
           >
-            need a break from the scroll? this might help — or make it worse. →
+            need a break from the scroll? this might help — or make it worse.
           </a>
         </div>
 
