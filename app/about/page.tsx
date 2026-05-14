@@ -45,19 +45,15 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mt-16 pt-10 border-t border-warm flex gap-8 text-xs text-muted font-light tracking-wide">
-          <div>
-            <p className="text-ink font-normal mb-1 text-sm">Based in</p>
-            <p>Dublin, Ireland</p>
-          </div>
-          <div>
-            <p className="text-ink font-normal mb-1 text-sm">Looking for</p>
-            <p>Customer success roles</p>
-          </div>
-          <div>
-            <p className="text-ink font-normal mb-1 text-sm">Writing</p>
-            <p>sunsetsfrommywindow</p>
-          </div>
+        <div className="mt-16 pt-10 border-t border-warm">
+          <a
+            href="https://neal.fun/absurd-trolley-problems/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px] text-muted font-light hover:text-terracotta transition-colors duration-200"
+          >
+            need a break from the scroll? this might help — or make it worse. →
+          </a>
         </div>
 
       </main>
