@@ -8,22 +8,16 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #F8F5F0;
-  background-image: radial-gradient(ellipse at 20% 15%, #FFFBF2 0%, #F8F5F0 60%);
+  background-color: #F0EBE3;
+  background-image:
+    repeating-linear-gradient(17deg,  transparent 0px, transparent 8px,  rgba(0,0,0,0.018) 8px,  rgba(0,0,0,0.018) 9px),
+    repeating-linear-gradient(107deg, transparent 0px, transparent 5px,  rgba(0,0,0,0.012) 5px,  rgba(0,0,0,0.012) 6px),
+    repeating-linear-gradient(197deg, transparent 0px, transparent 11px, rgba(0,0,0,0.008) 11px, rgba(0,0,0,0.008) 12px),
+    radial-gradient(ellipse at 18% 12%, #FFF4E0 0%, #F0EBE3 62%);
   background-attachment: fixed;
   color: #1A1714;
   font-family: var(--font-inter), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  opacity: 0.045;
-  pointer-events: none;
-  z-index: 0;
 }
 
 .font-serif {
