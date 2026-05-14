@@ -110,7 +110,7 @@ function Entry({
   highlight?: boolean
 }) {
   return (
-    <div className={`border-l-2 pl-5 ${highlight ? 'border-terracotta' : 'border-warm'}`}>
+    <div className="border-l-2 pl-5 border-warm hover:border-terracotta transition-colors duration-300">
       <div className="flex flex-wrap justify-between items-start gap-2 mb-1">
         {orgHref ? (
           <a
